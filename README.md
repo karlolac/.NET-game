@@ -9,11 +9,15 @@ Basic game structure implemented
 Initial classes and logic for core game functionality
 
 Application of object-oriented programming (OOP) concepts through the following classes:
+
 -Player
+
        Encapsulation: Player data such as health, score, and name are protected and accessed only through public methods.
 -Character
+
        Inheritance: The Warrior class inherits basic features from the Character class.
 -Program
+
        Polymorfism: The Program class showcases polymorphism by utilizing a common interface for various character classes, including Warrior, Knight, Assassin, 
                     Mage, Necromancer, and Druid. Each character class inherits from the base class Character and overrides the Attack() method to provide 
                     specific behavior.
